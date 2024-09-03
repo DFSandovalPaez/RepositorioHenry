@@ -1,6 +1,38 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 20px;
-  }
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 20px;
+}
+
+.link {
+  padding: 10px;
+}
+
+.link:hover {
+  background-color: aquamarine;
+  text-decoration: none;
+  color: black;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo:hover {
+  border: 3px solid #333;
+  background-color: #999;
+  border-radius: 5px;
+  color: #fff;
+}
+
+#titulo-principal {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.imagen {
+  display: flex;
+  justify-content: center;
+}

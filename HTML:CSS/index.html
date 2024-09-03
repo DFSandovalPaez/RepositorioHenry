@@ -4,21 +4,23 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Mi Primer Sitio Web</title>
-      <link rel="stylesheet" type="text/css" href="../HTML:CSS/styles.css">
+      <link rel="stylesheet" href="../HTML:CSS/styles.css" />     
    </head>
    <body>
       <header>
-        <h1>Mi primera maqueta de pagina web</h1>
+        <h1 class="titulo" id="titulo-principal">Mi primera maqueta de pagina web</h1>
 
-        <span>HOME</span>
-        <span>Link1</span>
-        <span>Link2</span>
+        <span class="link">HOME</span>
+        <span class="link">Link1</span>
+        <span class="link">Link2</span>
       </header>
       <hr />
       <main>
         <div>
-            <h2>Primer Articulo</h2>
-            <img src="./descarga.jpeg">
+            <h2 class="titulo">Primer Articulo</h2>
+            <div class="imagen">
+              <img src="./descarga.jpeg" />
+            </div>
             <h3>Subtitulo 1</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta minus vitae quia perferendis, tenetur quibusdam tempora ratione facere incidunt, modi adipisci saepe illum itaque voluptatibus impedit, laudantium asperiores officiis esse!</p>
             <h3>Subtitulo 2</h3>
@@ -26,15 +28,17 @@
         </div>
         <hr />
         <div>
-            <h2>Segundo Articulo</h2>
-            <img src="./descarga (1).jpeg">
+            <h2 class="titulo">Segundo Articulo</h2>
+            <div class="imagen">
+              <img src="./descarga (1).jpeg" />
+            </div>
             <h3>Subtitulo 1</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta minus vitae quia perferendis, tenetur quibusdam tempora ratione facere incidunt, modi adipisci saepe illum itaque voluptatibus impedit, laudantium asperiores officiis esse!</p>
         </div>
       </main>
       <hr />
       <footer>
-        <a href="./formulario.html">Inscribete a nuestro boletin</a>
+        <a href="./formulario.html" class="link">Inscribete a nuestro boletin</a>
       </footer>
    </body>
 </html>
